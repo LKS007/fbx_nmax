@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["LKS007"]
   spec.email         = ["leon99_21@mail.ru"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Nmax"
+  spec.description   = "Nmax description"
+  spec.homepage      = "https://github.com/LKS007/fbx_nmax"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
