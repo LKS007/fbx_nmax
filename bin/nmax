@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "nmax"
+
+if !STDIN.tty?
+  if ARGV[0]
+    number_of_sequences = ARGV[0].to_i
+    puts Nmax.get_sequences(STDIN, number_of_sequences)
+  else
+    puts "Error! Enter the number of sequences"
+  end
+else
+  p "You did not choice input file"
+end
+
+#puts ARGV[0].to_i
