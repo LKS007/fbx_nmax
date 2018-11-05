@@ -11,6 +11,6 @@ module Nmax
     end
     
     numbers_array.sort!.reverse!
-    numbers_array[0...number_of_sequences]
+    numbers_array[0, number_of_sequences]
   end
 end
